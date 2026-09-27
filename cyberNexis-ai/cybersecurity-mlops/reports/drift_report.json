@@ -1,0 +1,274 @@
+{
+  "timestamp": "2026-09-27T08:54:21.527233",
+  "n_reference_samples": 10000,
+  "n_current_samples": 5000,
+  "n_features_checked": 20,
+  "n_features_drifted": 19,
+  "drifted_features": [
+    "dur",
+    "spkts",
+    "dpkts",
+    "sbytes",
+    "dbytes",
+    "rate",
+    "sload",
+    "sloss",
+    "dloss",
+    "sinpkt",
+    "sjit",
+    "smean",
+    "dmean",
+    "ct_src_dport_ltm",
+    "ct_dst_sport_ltm",
+    "proto",
+    "service",
+    "state",
+    "label"
+  ],
+  "overall_drift_detected": true,
+  "drift_severity": "high",
+  "psi_threshold": 0.2,
+  "ks_alpha": 0.05,
+  "features": {
+    "dur": {
+      "type": "numerical",
+      "psi": 0.020681,
+      "ks_stat": 0.0735,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 3.5588,
+      "cur_mean": 3.8815,
+      "ref_std": 3.0885,
+      "cur_std": 3.0911
+    },
+    "spkts": {
+      "type": "numerical",
+      "psi": 0.032845,
+      "ks_stat": 0.079,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 166.4702,
+      "cur_mean": 136.7046,
+      "ref_std": 218.3959,
+      "cur_std": 201.2004
+    },
+    "dpkts": {
+      "type": "numerical",
+      "psi": 0.00409,
+      "ks_stat": 0.0265,
+      "ks_pvalue": 0.018414,
+      "drift_detected": true,
+      "ref_mean": 24.6489,
+      "cur_mean": 25.3544,
+      "ref_std": 16.549,
+      "cur_std": 16.8733
+    },
+    "sbytes": {
+      "type": "numerical",
+      "psi": 0.017784,
+      "ks_stat": 0.0326,
+      "ks_pvalue": 0.001662,
+      "drift_detected": true,
+      "ref_mean": 25497.2067,
+      "cur_mean": 24891.4272,
+      "ref_std": 27959.8774,
+      "cur_std": 25882.5905
+    },
+    "dbytes": {
+      "type": "numerical",
+      "psi": 0.009664,
+      "ks_stat": 0.0696,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 8276.545,
+      "cur_mean": 8870.7968,
+      "ref_std": 10247.1113,
+      "cur_std": 10118.6934
+    },
+    "rate": {
+      "type": "numerical",
+      "psi": 0.000485,
+      "ks_stat": 0.1164,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 707.1135,
+      "cur_mean": 657.9876,
+      "ref_std": 8318.2793,
+      "cur_std": 8078.8448
+    },
+    "sload": {
+      "type": "numerical",
+      "psi": 0.000584,
+      "ks_stat": 0.0722,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 711768.3216,
+      "cur_mean": 660984.8857,
+      "ref_std": 9444555.9924,
+      "cur_std": 9095119.9152
+    },
+    "dload": {
+      "type": "numerical",
+      "psi": 0.00021,
+      "ks_stat": 0.0191,
+      "ks_pvalue": 0.174854,
+      "drift_detected": false,
+      "ref_mean": 63540.1073,
+      "cur_mean": 75904.3156,
+      "ref_std": 675711.4126,
+      "cur_std": 1189691.4655
+    },
+    "sloss": {
+      "type": "numerical",
+      "psi": 0.004848,
+      "ks_stat": 0.0238,
+      "ks_pvalue": 0.04557,
+      "drift_detected": true,
+      "ref_mean": 19.5103,
+      "cur_mean": 19.0856,
+      "ref_std": 18.5042,
+      "cur_std": 18.7564
+    },
+    "dloss": {
+      "type": "numerical",
+      "psi": 0.006335,
+      "ks_stat": 0.0547,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 6.0777,
+      "cur_mean": 6.05,
+      "ref_std": 10.2765,
+      "cur_std": 10.6266
+    },
+    "sinpkt": {
+      "type": "numerical",
+      "psi": 0.003174,
+      "ks_stat": 0.0781,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 0.2013,
+      "cur_mean": 0.2339,
+      "ref_std": 0.5962,
+      "cur_std": 0.698
+    },
+    "sjit": {
+      "type": "numerical",
+      "psi": 0.036133,
+      "ks_stat": 0.0841,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 0.0946,
+      "cur_mean": 0.0701,
+      "ref_std": 0.1448,
+      "cur_std": 0.1247
+    },
+    "smean": {
+      "type": "numerical",
+      "psi": 0.015244,
+      "ks_stat": 0.0631,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 253.5391,
+      "cur_mean": 269.4692,
+      "ref_std": 164.5363,
+      "cur_std": 165.301
+    },
+    "dmean": {
+      "type": "numerical",
+      "psi": 0.022858,
+      "ks_stat": 0.0747,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 280.5079,
+      "cur_mean": 308.97,
+      "ref_std": 252.447,
+      "cur_std": 251.6055
+    },
+    "ct_src_dport_ltm": {
+      "type": "numerical",
+      "psi": 0.036639,
+      "ks_stat": 0.0838,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 21.4787,
+      "cur_mean": 16.245,
+      "ref_std": 29.9913,
+      "cur_std": 26.4654
+    },
+    "ct_dst_sport_ltm": {
+      "type": "numerical",
+      "psi": 0.035556,
+      "ks_stat": 0.0833,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_mean": 16.3892,
+      "cur_mean": 12.8638,
+      "ref_std": 22.8247,
+      "cur_std": 20.6368
+    },
+    "proto": {
+      "type": "categorical",
+      "chi2_stat": 18.8502,
+      "chi2_pvalue": 8.1e-05,
+      "drift_detected": true,
+      "ref_distribution": {
+        "tcp": 0.4508,
+        "udp": 0.4397,
+        "icmp": 0.1095
+      },
+      "cur_distribution": {
+        "tcp": 0.463,
+        "udp": 0.4466,
+        "icmp": 0.0904
+      }
+    },
+    "service": {
+      "type": "categorical",
+      "chi2_stat": 65.4615,
+      "chi2_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_distribution": {
+        "http": 0.2523,
+        "-": 0.2511,
+        "dns": 0.1693,
+        "ssl": 0.1643,
+        "ssh": 0.0836,
+        "ftp": 0.0794
+      },
+      "cur_distribution": {
+        "-": 0.25,
+        "http": 0.2454,
+        "dns": 0.1932,
+        "ssl": 0.183,
+        "ssh": 0.0644,
+        "ftp": 0.064
+      }
+    },
+    "state": {
+      "type": "categorical",
+      "chi2_stat": 78.7309,
+      "chi2_pvalue": 0.0,
+      "drift_detected": true,
+      "ref_distribution": {
+        "CON": 0.3065,
+        "INT": 0.3019,
+        "FIN": 0.2231,
+        "RST": 0.087,
+        "REQ": 0.0815
+      },
+      "cur_distribution": {
+        "CON": 0.3272,
+        "INT": 0.313,
+        "FIN": 0.238,
+        "RST": 0.0626,
+        "REQ": 0.0592
+      }
+    },
+    "label": {
+      "type": "target",
+      "ref_attack_rate": 0.3333,
+      "cur_attack_rate": 0.25,
+      "drift_detected": true
+    }
+  }
+}

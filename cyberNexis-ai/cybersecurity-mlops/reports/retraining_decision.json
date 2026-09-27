@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-27T08:54:21.584298",
+  "should_retrain": true,
+  "triggers": [
+    "data_drift",
+    "low_accuracy"
+  ],
+  "reasons": [
+    "Data drift detected in 19 features (severity: high)",
+    "Accuracy 0.9191 below threshold 0.95"
+  ],
+  "thresholds": {
+    "min_f1": 0.92,
+    "min_accuracy": 0.95,
+    "min_recall": 0.9
+  },
+  "current_metrics": {
+    "accuracy": 0.9191176051237303,
+    "precision": 0.9745913402955168,
+    "recall": 0.9047519293453213,
+    "f1": null,
+    "roc_auc": null
+  },
+  "drift_summary": {
+    "overall": true,
+    "severity": "high",
+    "n_drifted": 19
+  }
+}

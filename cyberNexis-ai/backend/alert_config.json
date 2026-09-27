@@ -1,0 +1,20 @@
+{
+  "telegram": {
+    "enabled": true,
+    "bot_token": "8819237056:AAEjuAHCiUDQyqUUgdyT-3h0J-OTrip749o",
+    "chat_id": "1723598960"
+  },
+  "email": {
+    "enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "priyadharshinik9779@gmail.com",
+    "smtp_password": "wthe liiy sqtl psay",
+    "from_email": "",
+    "to_emails": [
+      "priyadharshinik1511@gmail.com"
+    ]
+  },
+  "min_severity": "warning",
+  "cooldown_seconds": 60
+}

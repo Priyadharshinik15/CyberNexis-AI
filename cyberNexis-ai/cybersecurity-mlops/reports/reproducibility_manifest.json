@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-09-27T08:54:27.499066",
+  "model_type": "XGBClassifier",
+  "random_seed": 42,
+  "data_files": [
+    "data/train.csv"
+  ],
+  "artifacts": [
+    "models/xgboost_model.pkl",
+    "models/encoder.pkl",
+    "models/feature_columns.pkl",
+    "models/categorical_features.pkl",
+    "models/numerical_features.pkl",
+    "models/threshold.txt"
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "threshold": 0.1,
+    "train_samples": 40800,
+    "test_samples": 12000,
+    "attack_ratio_train": 0.3333,
+    "attack_ratio_test": 0.3333,
+    "train_duration_s": 4.58,
+    "timestamp": "2026-09-27T08:54:27.160226",
+    "confusion_matrix": [
+      [
+        8000,
+        0
+      ],
+      [
+        0,
+        4000
+      ]
+    ]
+  }
+}
